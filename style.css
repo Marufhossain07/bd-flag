@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.flag {
+    height: 240px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+.handle {
+    width: 10px;
+    height: 450px;
+    background-color: black;
+    position: relative;
+    bottom: 10%;
+}
+
+.uph {
+    width: 30px;
+    height: 10px;
+    background-color: brown;
+    position: relative;
+    bottom: 5%;
+    right: 10px;
+}
+
+.dh {
+    width: 50px;
+    height: 20px;
+    background-color: brown;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
